@@ -2,7 +2,7 @@
 
 Provides web UI to create shell push-based collection of scripts and systemd units to synchronize data (metrics) from nodes to central server
 
-[live demo](https://reddec.net/projects/shell-sync)
+[live demo](https://reddec.net/project/shell-sync/)
 
 # Motivation
 
