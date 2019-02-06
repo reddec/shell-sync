@@ -1,0 +1,53 @@
+{
+  "name": "shell-sync",
+  "version": "1.0.0",
+  "description": "web widget to make shell push-based synchronization",
+  "main": "index.js",
+  "dependencies": {
+    "file-saver": "^2.0.0",
+    "jszip": "^3.1.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/reddec/shell-sync.git"
+  },
+  "keywords": [
+    "react",
+    "shell",
+    "systemd"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "author": "Baryshnikov Aleksandr <owner@reddec.net> (reddec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reddec/shell-sync/issues"
+  },
+  "homepage": "https://github.com/reddec/shell-sync#readme"
+}

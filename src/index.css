@@ -1,0 +1,192 @@
+.feed-hint {
+    border: none;
+    border-bottom: 1px darkgray dashed;
+    color: darkgreen;
+    margin-right: 1em;
+    font-family: monospace;
+    padding: 0.5em;
+}
+
+.feed-command {
+    flex: 1;
+    border: none;
+    font-family: monospace;
+    border-bottom: 1px darkgray dashed;
+    padding: 0.5em;
+}
+
+.feed-hint:focus {
+    outline: none;
+    background-color: black;
+    color: lightgreen;
+    border-bottom: 1px darkgray solid;
+}
+
+.feed-command:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px darkgray solid;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+.feed {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.feed > span {
+    border: none;
+    color: darkgreen;
+    margin-left: 0.25em;
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-top: 0.45em;
+    padding-right: 0;
+}
+
+.feed-source {
+    overflow-x: auto;
+    white-space: pre;
+    font-family: monospace;
+    max-width: 100%;
+    padding: 0.5em;
+    color: darkgray;
+}
+
+.feed-source:hover {
+    color: darkslategray;
+}
+
+.feed-cli {
+    color: darkslategray;
+}
+
+.row {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-family: monospace;
+}
+
+.row input {
+    border: none;
+    border-bottom: 1px darkgray dashed;
+    padding: 0.5em;
+
+}
+
+.row input:focus {
+    outline: none;
+    border-bottom: 1px darkgray solid;
+}
+
+.row > label {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.row > label > input {
+    width: 100%;
+}
+
+.why {
+    display: block;
+    color: darkgray;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.lookup {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+.examples {
+    padding: 1em;
+}
+
+.examples > button {
+    margin: 0.33em;
+    border: 1px darkgrey dashed;
+    font-family: monospace;
+    background-color: inherit;
+    padding: 0.33em;
+}
+
+.files {
+    cursor: pointer;
+}
+
+.download {
+    margin-bottom: 0.5em;
+}
+
+.download > button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    font-family: monospace;
+    padding: 0.33em;
+}
+
+.workspace {
+    width: 100%;
+    font-family: monospace;
+}
+
+.workspace > .terminal-menu {
+    margin-bottom: 1em;
+}
+
+.terminal-menu {
+    background-color: darkslategrey;
+    color: white;
+    padding: 0.9em;
+}
+
+.terminal-menu > .link {
+    margin-right: 0.3em;
+    padding: 0.3em;
+
+}
+
+.terminal-menu > .link:hover {
+    border-top: white 1px dashed;
+    border-bottom: white 1px dashed;
+    cursor: pointer;
+}
+
+.terminal-menu > .title {
+    float: right;
+    font-weight: bold;
+}
+
+.workspace > table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.workspace > table > tbody > tr:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.workspace > table td {
+    padding: 0.33em;
+}
